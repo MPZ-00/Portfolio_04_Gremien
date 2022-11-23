@@ -1,0 +1,18 @@
+1. Abfrage für eine Tabelle mit Selektion und Projektion:
+    > "Kursname, Kursnr, Semester aller Aufgabenblätter, von Übungsaufgabe 1"
+2. Abfrage für Join mit zwei Tabellen:
+    > "Daten aller Klausuraufgaben zusammen mit den Daten vom Aufgabenblatt"
+3. Abfrage für Join, Selektion und Projektion mit mindestens 4 Tabellen:
+    > "Nummer, Schwierigkeitsgrad; Kursnr, Kursname und Semester aller Aufgabenblätter mit der Aufgabennr 2"
+4. Abfrage mit sortierter Ausgabe; mindestens zwei Sortierkriterien:
+    > "Nummer, Schwierigkeitsgrad aller Übungsaufgaben sortiert nach Schwierigkeitsgrad und nach Nummer"
+5. Abfrage mit LIKE und einem regulären Ausdruck:
+    > "alles von Tag wo Name 'Vektor' enthält"
+6. Update-Anweisung mit Unterabfrage und dem Operator "IN":
+    > "Erhöhe die SWS aller Lehrveranstaltungen, dessen Kursnr in (1, 2, 4) ist *ergänze mit eigenen 2 bel. Kursnr; um 1 SWS"
+7. Abfrage mit statistischen Funktionen und GROUP BY:
+    > "Gib jeweils den Durchschnitt, beste und schlechteste Punkte aller Klausuraufgaben an"
+8. Abrage mit LEFT OUTER JOIN:
+    > "Gib alle Übungsaufgaben zusammen mit den Tags und den Aufgabenblättern aus. Ist kein Aufgabenblatt dabei, soll es nicht ignoriert werden"
+9. Abfrage, bei der eine Tabelle doppelt vorkommt und daher Aliasnamen verwednet werden müssen:
+    > "Gib die Namen aller Tags zusammen mit der Nummer der jeweiligen Übungsaufgabe aus"
