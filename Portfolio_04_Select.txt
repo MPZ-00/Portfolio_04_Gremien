@@ -1,5 +1,5 @@
 1. Abfrage für eine Tabelle mit Selektion und Projektion:
-    > "Kursname, Kursnr, Semester aller Aufgabenblätter, von Übungsaufgabe 1"
+    > "Kursname, Kursnr, Semester aller Aufgabenblätter"
 2. Abfrage für Join mit zwei Tabellen:
     > "Daten aller Klausuraufgaben zusammen mit den Daten vom Aufgabenblatt"
 3. Abfrage für Join, Selektion und Projektion mit mindestens 4 Tabellen:
