@@ -15,4 +15,4 @@
 8. Abrage mit LEFT OUTER JOIN:
     > "Funktion aller Mitglieder, die auch in anderen Gremien vorkommen"
 9. Abfrage, bei der eine Tabelle doppelt vorkommt und daher Aliasnamen verwednet werden müssen:
-    > ""
+    > "Gremien bei denen Mitglieder die Funktion 'Lehling' haben"

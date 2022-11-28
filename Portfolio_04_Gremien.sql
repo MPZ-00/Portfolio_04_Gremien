@@ -68,3 +68,7 @@ inner join Personen P on P.ID = M.ID_Personen
 left outer join Namen on Namen.ID = P.ID;
 
 /* 9. Abfrage */
+select *
+from Gremien G1, Gremien G2
+inner join Mitglieder M on M.ID_Gremien = G2.ID
+where G1.ID <> G2.ID and M.Funktion like 'Lehrling';
