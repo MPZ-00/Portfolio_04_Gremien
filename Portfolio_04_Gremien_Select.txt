@@ -5,7 +5,7 @@
 3. Abfrage für Join, Selektion und Projektion mit mindestens 4 Tabellen:
     > "Personen die an Sitzung teilnimmt, dazu alle TOPs und was dazu gehört"
 4. Abfrage mit sortierter Ausgabe; mindestens zwei Sortierkriterien:
-    > "Sitzungen sortiert nach Einladung_am und ob diese öffentlich ist"
+    > "Tagesordnung sortiert nach Titel und Sitzungen nach öffentlich"
 5. Abfrage mit LIKE und einem regulären Ausdruck:
     > "Person mit 'oo' im Nachnamen"
 6. Update-Anweisung mit Unterabfrage und dem Operator "IN":

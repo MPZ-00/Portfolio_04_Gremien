@@ -50,7 +50,7 @@ left join Mitarbeiter on Mitarbeiter.ID = Pers.ID
 left join Sonstige_Personen on Sonstige_Personen.ID = Pers.ID
 left join Lehrbeauftragte on Lehrbeauftragte.ID = Pers.ID
 inner join Namen on Namen.ID = Pers.ID
-order by Pers.Geburtsdatum, Namen.Vorname;
+where Namen.Nachname like '%oo%'
 
 /* 6. Abfrage */
 
