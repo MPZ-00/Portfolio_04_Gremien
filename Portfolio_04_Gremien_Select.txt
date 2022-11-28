@@ -9,7 +9,7 @@
 5. Abfrage mit LIKE und einem regulären Ausdruck:
     > "Person mit 'oo' im Nachnamen"
 6. Update-Anweisung mit Unterabfrage und dem Operator "IN":
-    > "Update für Gremien Beginn IN Jahr '1990' zu '1989'"
+    > "Update für Adressen, wo die Hausnummer < 57 und >= 50 ist"
 7. Abfrage mit statistischen Funktionen und GROUP BY:
     > ""
 8. Abrage mit LEFT OUTER JOIN:

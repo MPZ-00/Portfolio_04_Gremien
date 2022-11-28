@@ -53,6 +53,7 @@ inner join Namen on Namen.ID = Pers.ID
 where Namen.Nachname like '%oo%'
 
 /* 6. Abfrage */
+update Adresse set Hausnummer = 52 where Hausnummer < 57 and Hausnummer >= 50;
 
 /* 7. Abfrage */
 
