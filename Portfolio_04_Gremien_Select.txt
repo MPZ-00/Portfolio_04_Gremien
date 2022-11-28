@@ -1,0 +1,18 @@
+1. Abfrage für eine Tabelle mit Selektion und Projektion:
+    > "Gib alle Professoren aus"
+2. Abfrage für Join mit zwei Tabellen:
+    > "Gremium und dazu die Sitzungen"
+3. Abfrage für Join, Selektion und Projektion mit mindestens 4 Tabellen:
+    > "Personen die an Sitzung teilnimmt, dazu alle TOPs und was dazu gehört"
+4. Abfrage mit sortierter Ausgabe; mindestens zwei Sortierkriterien:
+    > "Sitzungen sortiert nach Einladung_am und ob diese öffentlich ist"
+5. Abfrage mit LIKE und einem regulären Ausdruck:
+    > "Person mit 'oo' im Nachnamen"
+6. Update-Anweisung mit Unterabfrage und dem Operator "IN":
+    > "Update für Gremien Beginn IN Jahr '1990' zu '1989'"
+7. Abfrage mit statistischen Funktionen und GROUP BY:
+    > ""
+8. Abrage mit LEFT OUTER JOIN:
+    > "Funktion aller Mitglieder, die auch in anderen Gremien vorkommen"
+9. Abfrage, bei der eine Tabelle doppelt vorkommt und daher Aliasnamen verwednet werden müssen:
+    > ""
