@@ -42,6 +42,15 @@ inner join Sitzungen S on S.ID = top.ID_Sitzung
 order by T.Titel, S.oeffentlich;
 
 /* 5. Abfrage */
+select Vorname, Nachname, Geschlecht, Geburtsdatum
+from Personen Pers
+left join Professoren on Professoren.ID = Pers.ID
+left join Student on Student.ID = Pers.ID
+left join Mitarbeiter on Mitarbeiter.ID = Pers.ID
+left join Sonstige_Personen on Sonstige_Personen.ID = Pers.ID
+left join Lehrbeauftragte on Lehrbeauftragte.ID = Pers.ID
+inner join Namen on Namen.ID = Pers.ID
+order by Pers.Geburtsdatum, Namen.Vorname;
 
 /* 6. Abfrage */
 
