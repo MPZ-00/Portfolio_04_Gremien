@@ -61,5 +61,10 @@ from Adresse
 group by SUM(Hausnummer);
 
 /* 8. Abfrage */
+select G.Name, M.Funktion, Namen.Vorname, Namen.Nachname
+from Mitglieder M
+inner join Gremien G on G.ID = M.ID_Gremien
+inner join Personen P on P.ID = M.ID_Personen
+left outer join Namen on Namen.ID = P.ID;
 
 /* 9. Abfrage */
