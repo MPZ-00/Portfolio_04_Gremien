@@ -9,9 +9,9 @@
 5. Abfrage mit LIKE und einem regulären Ausdruck:
     > "Person mit 'oo' im Nachnamen"
 6. Update-Anweisung mit Unterabfrage und dem Operator "IN":
-    > "Update für Adressen, wo die Hausnummer < 57 und >= 50 ist"
+    > "Update für Adressen, wo die Hausnummer IN 55 und IN 50 ist"
 7. Abfrage mit statistischen Funktionen und GROUP BY:
-    > ""
+    > "Ausgabe der niedrigsten, höchsten Hausnummer und der Summe aller Hausnummern"
 8. Abrage mit LEFT OUTER JOIN:
     > "Funktion aller Mitglieder, die auch in anderen Gremien vorkommen"
 9. Abfrage, bei der eine Tabelle doppelt vorkommt und daher Aliasnamen verwednet werden müssen:

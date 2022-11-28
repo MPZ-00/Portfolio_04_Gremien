@@ -53,9 +53,12 @@ inner join Namen on Namen.ID = Pers.ID
 where Namen.Nachname like '%oo%'
 
 /* 6. Abfrage */
-update Adresse set Hausnummer = 52 where Hausnummer < 57 and Hausnummer >= 50;
+update Adresse set Hausnummer = 52 where Hausnummer IN (55, 50);
 
 /* 7. Abfrage */
+select MIN(Hausnummer), MAX(Hausnummer), SUM(Hausnummer)
+from Adresse
+group by SUM(Hausnummer);
 
 /* 8. Abfrage */
 
