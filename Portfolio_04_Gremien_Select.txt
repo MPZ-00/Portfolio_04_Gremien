@@ -1,5 +1,5 @@
 1. Abfrage für eine Tabelle mit Selektion und Projektion:
-    > "Gib alle Professoren aus"
+    > "Gib alle Personen aus"
 2. Abfrage für Join mit zwei Tabellen:
     > "Gremium und dazu die Sitzungen"
 3. Abfrage für Join, Selektion und Projektion mit mindestens 4 Tabellen:
